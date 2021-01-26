@@ -1,0 +1,409 @@
+~/code/w1(main*) » git clone git@github.com:bcheney21/command-line-murder-mystery.git                              brinncheney@Brinns-MacBook-Pro
+Cloning into 'command-line-murder-mystery'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 752 (delta 12), reused 3 (delta 1), pack-reused 723
+Receiving objects: 100% (752/752), 2.49 MiB | 222.00 KiB/s, done.
+Resolving deltas: 100% (36/36), done.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code/w1(main*) » ls                                                                                              brinncheney@Brinns-MacBook-Pro
+command-line-murder-mystery d1
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code/w1(main*) » cd command-line-mystery                                                                         brinncheney@Brinns-MacBook-Pro
+cd: no such file or directory: command-line-mystery
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code/w1(main*) » open command-line-mystery                                                                   1 ↵ brinncheney@Brinns-MacBook-Pro
+The file /Users/brinncheney/code/w1/command-line-mystery does not exist.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code/w1(main*) » open command-line-murder-mystery                                                            1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code/w1(main*) » cat instructions                                                                                brinncheney@Brinns-MacBook-Pro
+cat: instructions: No such file or directory
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code/w1(main*) » ls                                                                                          1 ↵ brinncheney@Brinns-MacBook-Pro
+command-line-murder-mystery d1
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code/w1(main*) » pwd                                                                                             brinncheney@Brinns-MacBook-Pro
+/Users/brinncheney/code/w1
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code/w1(main*) » cd ..                                                                                           brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/code(main*) » cd ..                                                                                              brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~(main*) » ls                                                                                                      brinncheney@Brinns-MacBook-Pro
+Agent                                    Pictures                                 git config --global init.defaultBranch m
+Applications                             Public                                   hello-world
+Desktop                                  README.md                                homework.txt
+Documents                                brinn.txt                                myfolder
+Downloads                                brinnc.txt                               resume
+Library                                  code                                     untitled folder
+Movies                                   command-line-murder-mystery              yet-another-git-practice-pull-request
+Music                                    cover_letter.txt
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~(main*) » cd command-line-murder-mystery                                                                          brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd mystery                                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » ls                                                                  brinncheney@Brinns-MacBook-Pro
+crimescene  interviews  memberships people      streets     vehicles
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd crimescene                                                       brinncheney@Brinns-MacBook-Pro
+cd: not a directory: crimescene
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » open crimescene                                                 1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd ..                                                               brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open people                                                                 brinncheney@Brinns-MacBook-Pro
+The file /Users/brinncheney/command-line-murder-mystery/people does not exist.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd people                                                               1 ↵ brinncheney@Brinns-MacBook-Pro
+cd: no such file or directory: people
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                      1 ↵ brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd hint1                                                                    brinncheney@Brinns-MacBook-Pro
+cd: not a directory: hint1
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open hint1                                                              1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » head -n 20 people                                                           brinncheney@Brinns-MacBook-Pro
+head: people: No such file or directory
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd ..                                                                   1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~(main*) » head -n 20 people                                                                                       brinncheney@Brinns-MacBook-Pro
+head: people: No such file or directory
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~(main*) » cd people                                                                                           1 ↵ brinncheney@Brinns-MacBook-Pro
+cd: no such file or directory: people
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~(main*) » ls                                                                                                  1 ↵ brinncheney@Brinns-MacBook-Pro
+Agent                                    Pictures                                 git config --global init.defaultBranch m
+Applications                             Public                                   hello-world
+Desktop                                  README.md                                homework.txt
+Documents                                brinn.txt                                myfolder
+Downloads                                brinnc.txt                               resume
+Library                                  code                                     untitled folder
+Movies                                   command-line-murder-mystery              yet-another-git-practice-pull-request
+Music                                    cover_letter.txt
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~(main*) » cd command-line-murder-mystery                                                                          brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd people                                                                   brinncheney@Brinns-MacBook-Pro
+cd: no such file or directory: people
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » head -n 20 people                                                       1 ↵ brinncheney@Brinns-MacBook-Pro
+head: people: No such file or directory
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open people                                                             1 ↵ brinncheney@Brinns-MacBook-Pro
+The file /Users/brinncheney/command-line-murder-mystery/people does not exist.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open crimescene                                                         1 ↵ brinncheney@Brinns-MacBook-Pro
+The file /Users/brinncheney/command-line-murder-mystery/crimescene does not exist.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                      1 ↵ brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd mystery                                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd people                                                           brinncheney@Brinns-MacBook-Pro
+cd: not a directory: people
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » ls                                                              1 ↵ brinncheney@Brinns-MacBook-Pro
+crimescene  interviews  memberships people      streets     vehicles
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » open people                                                         brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » head -n 20 people                                                   brinncheney@Brinns-MacBook-Pro
+***************
+To go to the street someone lives on, use the file
+for that street name in the 'streets' subdirectory.
+To knock on their door and investigate, read the line number
+they live on from the file.  If a line looks like gibberish, you're at the wrong house.
+***************
+
+NAME	GENDER	AGE	ADDRESS
+Alicia Fuentes	F	48	Walton Street, line 433
+Jo-Ting Losev	F	46	Hemenway Street, line 390
+Elena Edmonds	F	58	Elmwood Avenue, line 123
+Naydene Cabral	F	46	Winthrop Street, line 454
+Dato Rosengren	M	22	Mystic Street, line 477
+Fernanda Serrano	F	37	Redlands Road, line 392
+Emiliano Wenk	M	90	Paulding Street, line 490
+Larry Lapin	M	71	Atwill Road, line 298
+Jakub Gondos	M	61	Mitchell Street, line 187
+Derek Kazanin	M	55	Tennis Road, line 440
+Jens Tuimalealiifano	M	83	Rockwood Street, line 205
+Nikola Kadhi	M	75	Glenville Avenue, line 226
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd ..                                                               brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open hint2                                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd crimescene                                                               brinncheney@Brinns-MacBook-Pro
+cd: no such file or directory: crimescene
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                      1 ↵ brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd mystery                                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » open crimescene                                                     brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » grep "CLUE" crimescene                                              brinncheney@Brinns-MacBook-Pro
+CLUE: Footage from an ATM security camera is blurry but shows that the perpetrator is at least 6' tall.
+CLUE: Found a wallet believed to belong to the killer: no ID, just loose change, and membership cards for AAA, Delta SkyMiles, the local library, and the Museum of Bash History. The cards are totally untraceable and have no name, for some reason.
+CLUE: Questioned the barista at the local coffee shop. He said a person left right before they heard the shots. The name on their latte was Annabel, they had blond spiky hair and a New Zealand accent.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd ..                                                               brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open hint 3                                                                 brinncheney@Brinns-MacBook-Pro
+The files /Users/brinncheney/command-line-murder-mystery/hint and /Users/brinncheney/command-line-murder-mystery/3 do not exist.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd mysteory                                                             1 ↵ brinncheney@Brinns-MacBook-Pro
+cd: no such file or directory: mysteory
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd mystery                                                              1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » open hint3                                                          brinncheney@Brinns-MacBook-Pro
+The file /Users/brinncheney/command-line-murder-mystery/mystery/hint3 does not exist.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd ..                                                           1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd hint3                                                                    brinncheney@Brinns-MacBook-Pro
+cd: not a directory: hint3
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open hint3                                                              1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd mystery                                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » ls                                                                  brinncheney@Brinns-MacBook-Pro
+crimescene  interviews  memberships people      streets     vehicles
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » open vehicles                                                       brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » head "6" vehicles                                                   brinncheney@Brinns-MacBook-Pro
+head: 6: No such file or directory
+==> vehicles <==
+***************
+Vehicle and owner information from the Terminal City Department of Motor Vehicles
+***************
+
+License Plate T3YUHF6
+Make: Toyota
+Color: Yellow
+Owner: Jianbo Megannem
+Height: 5'6"
+Weight: 246 lbs
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » head -n 6 people                                                1 ↵ brinncheney@Brinns-MacBook-Pro
+***************
+To go to the street someone lives on, use the file
+for that street name in the 'streets' subdirectory.
+To knock on their door and investigate, read the line number
+they live on from the file.  If a line looks like gibberish, you're at the wrong house.
+***************
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » head -n 6 vehicles                                                  brinncheney@Brinns-MacBook-Pro
+***************
+Vehicle and owner information from the Terminal City Department of Motor Vehicles
+***************
+
+License Plate T3YUHF6
+Make: Toyota
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » head -n 6" vehicles                                                 brinncheney@Brinns-MacBook-Pro
+\ 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » head -n Annabe people                                         130 ↵ brinncheney@Brinns-MacBook-Pro
+head: illegal line count -- Annabe
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » head -n "Annabe" people                                         1 ↵ brinncheney@Brinns-MacBook-Pro
+head: illegal line count -- Annabe
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd ..                                                           1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open hint4                                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd mystery                                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » ls                                                                  brinncheney@Brinns-MacBook-Pro
+crimescene  interviews  memberships people      streets     vehicles
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » open people                                                         brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » grep "Annabel" people                                               brinncheney@Brinns-MacBook-Pro
+Annabel Sun	F	26	Hart Place, line 40
+Oluwasegun Annabel	M	37	Mattapan Street, line 173
+Annabel Church	F	38	Buckingham Place, line 179
+Annabel Fuglsang	M	40	Haley Street, line 176
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » ls                                                                  brinncheney@Brinns-MacBook-Pro
+crimescene  interviews  memberships people      streets     vehicles
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » open memberships                                                    brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » grep "AAA" memberships                                              brinncheney@Brinns-MacBook-Pro
+grep: memberships: Is a directory
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd hint5                                                        2 ↵ brinncheney@Brinns-MacBook-Pro
+cd: no such file or directory: hint5
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery/mystery(main*) » cd ..                                                           1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » cd hint5                                                                    brinncheney@Brinns-MacBook-Pro
+cd: not a directory: hint5
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open hint5                                                              1 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » head -n 173 streets/Mattapan_Street | tail -n 1                             brinncheney@Brinns-MacBook-Pro
+
+head: streets/Mattapan_Street: No such file or directory
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open hint6                                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » open cheatsheet.pdf                                                         brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » grep -A "Annabel" vehicles                                                  brinncheney@Brinns-MacBook-Pro
+grep: Invalid argument
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » touch brinn_muder_mystery.txt                                           2 ↵ brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » git add brinn_murder_mystery.txt                                            brinncheney@Brinns-MacBook-Pro
+fatal: pathspec 'brinn_murder_mystery.txt' did not match any files
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » git commit -m "created mystery text file"                             128 ↵ brinncheney@Brinns-MacBook-Pro
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   instructions
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	brinn_muder_mystery.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » git commit -m "text"                                                    1 ↵ brinncheney@Brinns-MacBook-Pro
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   instructions
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	brinn_muder_mystery.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                      1 ↵ brinncheney@Brinns-MacBook-Pro
+LICENSE                 brinn_muder_mystery.txt hint1                   hint4                   hint7                   mystery
+LICENSE.txt             cheatsheet.md           hint2                   hint5                   hint8
+README.md               cheatsheet.pdf          hint3                   hint6                   instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » rm brinn_muder_mystery.txt                                                  brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
+LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » touch brinn_murder_mystery.txt                                              brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » git add brinn_murder_mystery.txt                                            brinncheney@Brinns-MacBook-Pro
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » git commit - m "created the text file"                                      brinncheney@Brinns-MacBook-Pro
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'created the text file' did not match any file(s) known to git
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » git commit -m "created the text file"                                   1 ↵ brinncheney@Brinns-MacBook-Pro
+[main 8292d58] created the text file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 brinn_murder_mystery.txt
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » git push main origin                                                        brinncheney@Brinns-MacBook-Pro
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » git push origin main                                                  128 ↵ brinncheney@Brinns-MacBook-Pro
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 313 bytes | 156.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:bcheney21/command-line-murder-mystery.git
+   14a7c8c..8292d58  main -> main
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE                  cheatsheet.md            hint3                    hint7
+LICENSE.txt              cheatsheet.pdf           hint4                    hint8
+README.md                hint1                    hint5                    instructions
+brinn_murder_mystery.txt hint2                    hint6                    mystery
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » annal                                                                       brinncheney@Brinns-MacBook-Pro
+zsh: command not found: annal
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » annable did it                                                        127 ↵ brinncheney@Brinns-MacBook-Pro
+zsh: command not found: annable
+--------------------------------------------------------------------------------------------------------------------------------------------------
+~/command-line-murder-mystery(main*) » >....                                                                                                      
+To github.com:bcheney21/command-line-murder-mystery.git
+   14a7c8c..8292d58  main -> main
+-------------------------------------------------------------------------------------------------------------------------------------------------- 
+~/command-line-murder-mystery(main*) » ls                                                                          brinncheney@Brinns-MacBook-Pro
+LICENSE                  cheatsheet.md            hint3                    hint7
+LICENSE.txt              cheatsheet.pdf           hint4                    hint8
+README.md                hint1                    hint5                    instructions
+brinn_murder_mystery.txt hint2                    hint6                    mystery
+-------------------------------------------------------------------------------------------------------------------------------------------------- 
+~/command-line-murder-mystery(main*) » annal                                                                       brinncheney@Brinns-MacBook-Pro
+zsh: command not found: annal
+-------------------------------------------------------------------------------------------------------------------------------------------------- 
+~/command-line-murder-mystery(main*) » annable did it                                                        127 ↵ brinncheney@Brinns-MacBook-Pro
+zsh: command not found: annable
+-----------------------------------------------
