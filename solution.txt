@@ -347,9 +347,9 @@ README.md               cheatsheet.pdf          hint3                   hint6   
 LICENSE        README.md      cheatsheet.pdf hint2          hint4          hint6          hint8          mystery
 LICENSE.txt    cheatsheet.md  hint1          hint3          hint5          hint7          instructions
 --------------------------------------------------------------------------------------------------------------------------------------------------
-~/command-line-murder-mystery(main*) » touch brinn_murder_mystery.txt                                              brinncheney@Brinns-MacBook-Pro
+~/command-line-murder-mystery(main*) » touch solution.txt                                                           brinncheney@Brinns-MacBook-Pro
 --------------------------------------------------------------------------------------------------------------------------------------------------
-~/command-line-murder-mystery(main*) » git add brinn_murder_mystery.txt                                            brinncheney@Brinns-MacBook-Pro
+~/command-line-murder-mystery(main*) » git add solution.txt                                                         brinncheney@Brinns-MacBook-Pro
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ~/command-line-murder-mystery(main*) » git commit - m "created the text file"                                      brinncheney@Brinns-MacBook-Pro
 error: pathspec '-' did not match any file(s) known to git
@@ -359,7 +359,7 @@ error: pathspec 'created the text file' did not match any file(s) known to git
 ~/command-line-murder-mystery(main*) » git commit -m "created the text file"                                   1 ↵ brinncheney@Brinns-MacBook-Pro
 [main 8292d58] created the text file
  1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 brinn_murder_mystery.txt
+ create mode 100644 solution.txt
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ~/command-line-murder-mystery(main*) » git push main origin                                                        brinncheney@Brinns-MacBook-Pro
 fatal: 'main' does not appear to be a git repository
@@ -383,7 +383,7 @@ To github.com:bcheney21/command-line-murder-mystery.git
 LICENSE                  cheatsheet.md            hint3                    hint7
 LICENSE.txt              cheatsheet.pdf           hint4                    hint8
 README.md                hint1                    hint5                    instructions
-brinn_murder_mystery.txt hint2                    hint6                    mystery
+solution.txt             hint2                    hint6                    mystery
 --------------------------------------------------------------------------------------------------------------------------------------------------
 ~/command-line-murder-mystery(main*) » annal                                                                       brinncheney@Brinns-MacBook-Pro
 zsh: command not found: annal
@@ -404,6 +404,6 @@ brinn_murder_mystery.txt hint2                    hint6                    myste
 ~/command-line-murder-mystery(main*) » annal                                                                       brinncheney@Brinns-MacBook-Pro
 zsh: command not found: annal
 -------------------------------------------------------------------------------------------------------------------------------------------------- 
-~/command-line-murder-mystery(main*) » annable did it                                                        127 ↵ brinncheney@Brinns-MacBook-Pro
-zsh: command not found: annable
+~/command-line-murder-mystery(main*) » annabel did it                                                        127 ↵ brinncheney@Brinns-MacBook-Pro
+zsh: command not found: annabel
 -----------------------------------------------
